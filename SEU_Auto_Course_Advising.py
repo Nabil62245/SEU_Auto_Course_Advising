@@ -264,10 +264,11 @@ def main(username=None, password=None, course_to_add=None):
 
 
 # if __name__ == "__main__":
-# course_to_add = ["EEE181.5", "MAT241.4", "ENG103.18", "CSE241.5"]
 course_to_add = None  # for interactive input, leave this list empty
+# course_to_add = ["EEE181.5", "MAT241.4", "ENG103.18", "CSE241.5"]
 
-USERNAME = "" or input("Enter your SEU username: ").strip()
+#You can put your username/password between ".." to fast login and start the bot 
+USERNAME = "" or input("Enter your SEU username: ").strip() 
 PASSWORD = "" or input("Enter your SEU password: ").strip()
 
 main(USERNAME, PASSWORD, course_to_add)
